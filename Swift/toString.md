@@ -5,6 +5,7 @@
 3. 文字列補完（文字列展開？）を行う
 
 ### 速度比較
+Swift version 5.1.3
 
 ```swift
 import Foundation
