@@ -11,8 +11,8 @@ URLから拡張された概念。一定の書式でなんらかのリソース�
 scheme, authority, path, query, fragmentに分かれている
 schemeとpathは必須。
 
-例えば、以下のようなURIがあるとする
-(URL)foo://example.com:8042/over/there?name=ferret#nose
+例えば、以下のようなURIがあるとする  
+(URL)foo://example.com:8042/over/there?name=ferret#nose  
 (URN)urn:example:animal:ferret:nose
 
 構造は以下のようになる(URNの方合ってるか自信ない)
