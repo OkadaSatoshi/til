@@ -1,7 +1,7 @@
 {
   "lint-staged": {
     "*.md": [
-      "markdownlint -f -i node_modules",
+      "/node_modules/.bin/markdownlint -f -i node_modules",
       "git add"
     ]
   },
