@@ -7,11 +7,12 @@ APIのクエリ言語、らしい。
 
 ## 例
 GithubがGraphQL用エンドポイントのプロキシを用意してくれており、それがわかりやすい
-https://developer.github.com/v4/explorer/
+<https://developer.github.com/v4/explorer/>
 
 エンドポイント: `https://graphql-explorer.githubapp.com/graphql/proxy`
 リクエストのペイロード: 
-```
+
+```graphql
 {
   viewer {
     login
@@ -21,7 +22,8 @@ https://developer.github.com/v4/explorer/
 ```
 
 レスポンス:
-```
+
+```json
 {
   "data": {
     "viewer": {
