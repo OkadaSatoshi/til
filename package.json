@@ -1,8 +1,6 @@
 {
   "lint-staged": {
-    "*.md": [
-      "/node_modules/.bin/markdownlint -f **/*.md -i node_modules"
-    ]
+    "*": ""
   },
   "husky": {
     "hooks": {
