@@ -1,13 +1,11 @@
 {
-  "lint-staged": {
-    "*.md": [
-      "./node_modules/.bin/markdownlint -f **/*.md -i node_modules"
-    ]
-  },
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
     }
+  },
+  "lint-staged": {
+    "*.md": "markdownlint -f '**/*.md' -i node_modules"
   },
   "dependencies": {
     "glob": "^7.1.6",
