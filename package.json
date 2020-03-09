@@ -1,0 +1,17 @@
+{
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.md": "markdownlint -f '**/*.md' -i node_modules"
+  },
+  "dependencies": {
+    "glob": "^7.1.6",
+    "husky": "^4.2.3",
+    "lint-staged": "^10.0.7",
+    "markdownlint": "^0.19.0",
+    "markdownlint-cli": "^0.22.0"
+  }
+}
