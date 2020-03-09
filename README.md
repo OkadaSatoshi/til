@@ -2,7 +2,7 @@
 
 > Today I Learned
 
-# 環境構築
+## 環境構築
 
 ```sh
 brew install yarn

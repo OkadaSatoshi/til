@@ -1,4 +1,6 @@
-# URI(Uniform Resource Identifier)の概要
+# URI(Uniform Resource Identifier)
+
+## 概要
 
 URLから拡張された概念。一定の書式でなんらかのリソースを一意に識別するための統一書式。
 サブセットとして、URL, URNがある。（どちらもURIであるという理解）
@@ -8,7 +10,7 @@ URLから拡張された概念。一定の書式でなんらかのリソース�
 
 と書いてあるので、個々のURIはURLorURNのどちらかに分類されるわけではなく、両方の性質を持ったものも存在する、ということなのかな。
 
-# URIの構造
+## URIの構造
 
 scheme, authority, path, query, fragmentに分かれている
 schemeとpathは必須。
@@ -23,10 +25,10 @@ schemeとpathは必須。
 |foo:|//example.com:8042|/over/there|?name=ferret|#nose|
 |urn:|example:|animal:|ferret:|nose|
 
-# 疑問
+## 疑問
 
 - URL, URNどちらの性質も持たないURIも存在するのだろうか？
 
-# 参考
+## 参考
 
 [RFC3986 日本語訳の複製](https://triple-underscore.github.io/rfc-others/RFC3986-ja.html)
